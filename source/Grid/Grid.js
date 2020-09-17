@@ -1220,6 +1220,8 @@ class Grid extends React.PureComponent<Props, State> {
         }
       }
 
+      columnStartIndex = 0;
+
       this._childrenToDisplay = cellRangeRenderer({
         cellCache: this._cellCache,
         cellRenderer,
